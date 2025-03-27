@@ -13,8 +13,8 @@ const CardCarousel = () => {
                 src="/images/warkop.jpg"
                 alt="Warkop"
                 className="w-full h-auto object-cover"
-                width={500} // Tentukan lebar gambar
-                height={300} // Tentukan tinggi gambar
+                width={500}
+                height={300}
               />
               <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2">
                 <h3 className="font-bold">Warkop</h3>
