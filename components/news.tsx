@@ -10,7 +10,13 @@ const News = () => {
             style={{ width: "60%", minWidth: "600px" }}
           >
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <Image src="#" alt="sasa" className="w-full h-48 object-cover" />
+              <Image
+                src=""
+                alt="sasa"
+                className="w-full h-48 object-cover"
+                width={100}
+                height={100}
+              />
               <div className="p-4">
                 <h2 className="font-bold text-xl mb-2">Berita 1</h2>
                 <p className="text-gray-700 text-base">testBerikta</p>

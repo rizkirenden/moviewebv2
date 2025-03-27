@@ -2,18 +2,20 @@ import React from "react";
 import Image from "next/image";
 const Film = () => {
   return (
-    <div className="m-4 h-auto w-48 bg-customBlue border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+    <div className="m-4 h-auto w-48 bg-customBlue border border-gray-200 rounded-lg shadow-sm">
       <a href="#">
         <Image
           className="rounded-t-lg w-full"
           src="/images/warkop.jpg"
           alt="Film Poster"
+          width={500}
+          height={500}
         />
       </a>
       <div className="bg-customBlue p-5 rounded-bl-lg rounded-br-lg">
         <a href="#">
           <h5 className="text-xs font-bold tracking-tight text-white dark:text-white">
-            Noteworthy technology acquisitions 2021
+            Warkop
           </h5>
         </a>
         <div className="mt-4 mb-0 flex space-x-2 flex-nowrap justify-between">

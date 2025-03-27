@@ -5,6 +5,7 @@ import Cardcarousel from "@/components/cardcarousel";
 import News from "@/components/news";
 import Genrefilm from "@/components/genrefilm";
 import Film from "@/components/film";
+import Footer from "@/components/footer";
 const Page = () => {
   return (
     <>
@@ -27,6 +28,9 @@ const Page = () => {
       </div>
       <div>
         <Film />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

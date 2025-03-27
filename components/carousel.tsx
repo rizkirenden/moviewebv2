@@ -8,6 +8,8 @@ const Carousel = () => {
           <Image
             src="/images/deepwater.jpg"
             alt="Slide 1"
+            height={500}
+            width={2000}
             className="w-full h-screen object-cover"
           />
         </div>

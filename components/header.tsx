@@ -5,7 +5,13 @@ const Header = () => {
     <div className="absolute top-0 left-0 w-full z-50 p-4">
       <div className="flex justify-between items-center mx-16">
         <div className="flex items-center">
-          <Image src="/images/baverse.png" alt="Logo" className="h-12" />
+          <Image
+            src="/images/baverse.png"
+            alt="Logo"
+            width={60}
+            height={100}
+            className="h-12"
+          />
           <h1 className="flex items-center font-sans ml-4">
             <span className="text-white">Ba</span>
             <span style={{ color: "#4b70db" }}>Verse</span>
