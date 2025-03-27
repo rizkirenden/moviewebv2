@@ -6,7 +6,7 @@ import News from "@/components/news";
 import Genrefilm from "@/components/genrefilm";
 import Film from "@/components/film";
 import Footer from "@/components/footer";
-const Page = () => {
+const Landingpage = () => {
   return (
     <>
       <div>
@@ -36,4 +36,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Landingpage;

@@ -49,7 +49,7 @@ const Header = () => {
 
         <div>
           <button className="text-white bg-customBlue px-4 py-2 rounded-xl hover:bg-blue-700">
-            Login
+            <a href="/login">Login</a>
           </button>
         </div>
       </div>
