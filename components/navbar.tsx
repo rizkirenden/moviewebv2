@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
       <nav className="flex flex-col space-y-4 flex-grow">
         <a
-          href="#"
+          href="/dashboard"
           className="text-gray-300 hover:bg-blue-600 hover:text-white px-4 py-3 rounded-lg transition-all duration-200 flex items-center space-x-3 group"
         >
           <FiAirplay className="text-xl group-hover:scale-110 transition-transform" />
