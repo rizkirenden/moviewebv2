@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FiAirplay, FiTv } from "react-icons/fi";
 import { IoLogOut } from "react-icons/io5";
-import { PiUserListLight } from "react-icons/pi";
+import { PiUserListLight, PiFilmSlate } from "react-icons/pi";
 
 const Navbar = () => {
   return (
@@ -31,6 +31,13 @@ const Navbar = () => {
         >
           <FiTv className="text-xl group-hover:scale-110 transition-transform" />
           <span>Film</span>
+        </a>
+        <a
+          href="/genre"
+          className="text-gray-300 hover:bg-blue-600 hover:text-white px-4 py-3 rounded-lg transition-all duration-200 flex items-center space-x-3 group"
+        >
+          <PiFilmSlate className="text-xl group-hover:scale-110 transition-transform" />
+          <span>Genre</span>
         </a>
         <a
           href="#"

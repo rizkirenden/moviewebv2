@@ -1,7 +1,7 @@
 import React from "react";
-import Table from "@/components/film/table";
+import Table from "@/components/genre/table";
 import Navbar from "@/components/navbar";
-const page = () => {
+const Genre = () => {
   return (
     <>
       <div>
@@ -14,4 +14,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Genre;
